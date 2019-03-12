@@ -72,4 +72,10 @@ public class HomePage extends TestBase{
 		return new EditEmpPage();
 	}
 
+
+	public DeleteEmpPage delEmp() {
+		
+		return new DeleteEmpPage();
+	}
+
 }
