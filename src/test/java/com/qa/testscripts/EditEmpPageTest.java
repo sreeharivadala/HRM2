@@ -7,16 +7,16 @@ import org.testng.annotations.Test;
 
 import com.qa.base.TestBase;
 import com.qa.pages.AddEmpPage;
+import com.qa.pages.EditEmpPage;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 
-public class AddEmpPageTest extends TestBase{
-	
+public class EditEmpPageTest extends TestBase {
 	LoginPage loginPage;
 	HomePage homePage;
-	AddEmpPage addEmpPage;
+	EditEmpPage editEmpPage;
 	
-	public AddEmpPageTest(){
+	public EditEmpPageTest(){
 		super();
 	}
 	
@@ -25,8 +25,9 @@ public class AddEmpPageTest extends TestBase{
 		initialization();
 		loginPage = new LoginPage();	
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		addEmpPage = homePage.clickOnAddEmp();
 		driver.switchTo().frame("rightMenu");
+		editEmpPage = homePage.editEmp();
+		
 	}
 	
 /*	@Test(priority=1)
@@ -36,10 +37,10 @@ public class AddEmpPageTest extends TestBase{
 	}
 */	
 		@Test(priority=2)
-	public void addEmployeeAndVerifyTest(){
+	public void editEmployeeAndVerifyTest() throws InterruptedException{
 		
-		Assert.assertTrue(addEmpPage.addEmployeeAndVerify(),"Add Emp Page Test Failed");
-		driver.switchTo().parentFrame();
+		Assert.assertTrue(editEmpPage.editEmployeeAndVerify(),"Edit Emp Page Test Failed");
+		
 	} 
 	@Test(priority=3)
 	public void logoutTest(){

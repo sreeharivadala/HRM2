@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testscripts.AddEmpPageTest">
+      <class name="com.qa.testscripts.EditEmpPageTest">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="addEmployeeAndVerifyTest"/>
+          <include name="editEmployeeAndVerifyTest"/>
         </methods>
-      </class> <!-- com.qa.testscripts.AddEmpPageTest -->
+      </class> <!-- com.qa.testscripts.EditEmpPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

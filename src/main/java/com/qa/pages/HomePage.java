@@ -66,4 +66,10 @@ public class HomePage extends TestBase{
 		return new AddEmpPage();
 	}
 
+
+	public EditEmpPage editEmp() {
+		
+		return new EditEmpPage();
+	}
+
 }
