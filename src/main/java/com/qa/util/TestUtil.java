@@ -60,4 +60,22 @@ public class TestUtil extends TestBase{
 		return false;
 	}
 
+	public static boolean verifyLocAdded(String sName) {
+		System.out.println("Location  to find is  "+ sName);
+		
+		int rowCnt = driver.findElements(By.xpath("//table[@class='data-table']/tbody/tr")).size();
+		for(int i=1; i<=rowCnt; i++){
+			
+			
+			String tLocName = 	driver.findElement(By.xpath("//table[@class='data-table']/tbody/tr["+i+"]/td[3]")).getText();
+			System.out.println("Location list from table at  "+ tLocName +" at row "+i);
+			if( (tLocName).equals(sName) ) {
+				System.out.println("Location with "+ tLocName + "  found at row " + i);
+				return true;
+			}
+					
+		}
+		return false;
+	}
+
 }

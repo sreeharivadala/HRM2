@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13281" started-at="2019-03-12T06:47:12Z" finished-at="2019-03-12T06:47:26Z">
+  <suite name="Suite" duration-ms="25194" started-at="2019-03-22T09:04:12Z" finished-at="2019-03-22T09:04:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13281" started-at="2019-03-12T06:47:12Z" finished-at="2019-03-12T06:47:26Z">
-      <class name="com.qa.testscripts.DeleteEmpPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testscripts.DeleteEmpPageTest@1c6f14e]" name="setUp" is-config="true" duration-ms="10256" started-at="2019-03-12T06:47:12Z" finished-at="2019-03-12T06:47:23Z">
+    <test name="Test" duration-ms="25194" started-at="2019-03-22T09:04:12Z" finished-at="2019-03-22T09:04:37Z">
+      <class name="com.qa.testscripts.AddLocationPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testscripts.AddLocationPageTest@1c6f14e]" name="setUp" is-config="true" duration-ms="15758" started-at="2019-03-22T09:04:12Z" finished-at="2019-03-22T09:04:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="deleteEmployeeAndVerifyTest()[pri:2, instance:com.qa.testscripts.DeleteEmpPageTest@1c6f14e]" name="deleteEmployeeAndVerifyTest" duration-ms="2989" started-at="2019-03-12T06:47:23Z" finished-at="2019-03-12T06:47:26Z">
+        <test-method status="PASS" signature="addLocationAndVerifyTest()[pri:2, instance:com.qa.testscripts.AddLocationPageTest@1c6f14e]" name="addLocationAndVerifyTest" duration-ms="9404" started-at="2019-03-22T09:04:27Z" finished-at="2019-03-22T09:04:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteEmployeeAndVerifyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.DeleteEmpPageTest@1c6f14e]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-03-12T06:47:26Z" finished-at="2019-03-12T06:47:26Z">
+        </test-method> <!-- addLocationAndVerifyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.AddLocationPageTest@1c6f14e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-22T09:04:37Z" finished-at="2019-03-22T09:04:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.testscripts.DeleteEmpPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.qa.testscripts.AddLocationPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
