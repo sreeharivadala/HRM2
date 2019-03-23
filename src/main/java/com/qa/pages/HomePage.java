@@ -145,4 +145,14 @@ public class HomePage extends TestBase{
 		return false;
 	}
 
+
+	public EditLocationPage clickForEditLocation() {
+		Assert.assertTrue(verifyAdminMenuList(),"Admin Menu List is not correct");
+		Assert.assertTrue(verifyCompInfoMenuList(),"Company Info Menu List is not correct");
+		LocBtn.click();
+		
+		
+		return new EditLocationPage();
+	}
+
 }

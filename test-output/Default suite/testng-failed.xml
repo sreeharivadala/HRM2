@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.testscripts.AddLocationPageTest">
+      <class name="com.qa.testscripts.EditLocationPageTest">
         <methods>
-          <include name="tearDown"/>
+          <include name="editLocationAndVerifyTest"/>
           <include name="setUp"/>
-          <include name="addLocationAndVerifyTest"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.qa.testscripts.AddLocationPageTest -->
+      </class> <!-- com.qa.testscripts.EditLocationPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

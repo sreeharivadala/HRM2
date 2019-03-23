@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="25194" started-at="2019-03-22T09:04:12Z" finished-at="2019-03-22T09:04:37Z">
+  <suite name="Default suite" duration-ms="23154" started-at="2019-03-23T07:08:46Z" finished-at="2019-03-23T07:09:09Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="25194" started-at="2019-03-22T09:04:12Z" finished-at="2019-03-22T09:04:37Z">
-      <class name="com.qa.testscripts.AddLocationPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testscripts.AddLocationPageTest@1c6f14e]" name="setUp" is-config="true" duration-ms="15758" started-at="2019-03-22T09:04:12Z" finished-at="2019-03-22T09:04:27Z">
+    <test name="Default test" duration-ms="23154" started-at="2019-03-23T07:08:46Z" finished-at="2019-03-23T07:09:09Z">
+      <class name="com.qa.testscripts.EditLocationPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.testscripts.EditLocationPageTest@198378d]" name="setUp" is-config="true" duration-ms="17219" started-at="2019-03-23T07:08:46Z" finished-at="2019-03-23T07:09:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addLocationAndVerifyTest()[pri:2, instance:com.qa.testscripts.AddLocationPageTest@1c6f14e]" name="addLocationAndVerifyTest" duration-ms="9404" started-at="2019-03-22T09:04:27Z" finished-at="2019-03-22T09:04:37Z">
+        <test-method status="PASS" signature="editLocationAndVerifyTest()[pri:2, instance:com.qa.testscripts.EditLocationPageTest@198378d]" name="editLocationAndVerifyTest" duration-ms="5900" started-at="2019-03-23T07:09:03Z" finished-at="2019-03-23T07:09:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addLocationAndVerifyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.AddLocationPageTest@1c6f14e]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-22T09:04:37Z" finished-at="2019-03-22T09:04:37Z">
+        </test-method> <!-- editLocationAndVerifyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.testscripts.EditLocationPageTest@198378d]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-03-23T07:09:09Z" finished-at="2019-03-23T07:09:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.testscripts.AddLocationPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.qa.testscripts.EditLocationPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
