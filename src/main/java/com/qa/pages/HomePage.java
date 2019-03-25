@@ -155,4 +155,22 @@ public class HomePage extends TestBase{
 		return new EditLocationPage();
 	}
 
+
+	public DelLocationPage clickToDeleteLocation() {
+		Assert.assertTrue(verifyAdminMenuList(),"Admin Menu List is not correct");
+		Assert.assertTrue(verifyCompInfoMenuList(),"Company Info Menu List is not correct");
+		LocBtn.click();
+		
+		return new DelLocationPage();
+	}
+
+
+	public DelMulLocationPage clickToMulDeleteLocation() {
+		Assert.assertTrue(verifyAdminMenuList(),"Admin Menu List is not correct");
+		Assert.assertTrue(verifyCompInfoMenuList(),"Company Info Menu List is not correct");
+		LocBtn.click();
+		
+		return new DelMulLocationPage();
+	}
+
 }
